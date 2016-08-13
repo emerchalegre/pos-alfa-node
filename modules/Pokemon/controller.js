@@ -10,6 +10,12 @@ const Controller = {
 	},
 	remove: (query, callback) => {
 		Model.remove(query, callback)
+	},
+	update: (query, callback) => {
+		Model.update(query, callback)
+	},
+	findOne: function(query, callback) {
+		Model.findOne(query, callback)
 	}
 }
 
